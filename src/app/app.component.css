@@ -2,13 +2,15 @@
 header {
     width: 100%;
     height: 600px;
-    background: hsl(160, 81%, 60%);
-    background: -webkit-linear-gradient(to right, hsla(160, 81%, 60%, 0.459), hsla(160, 81%, 60%, 0.664));
-    background: linear-gradient(to right, hsla(160, 81%, 60%, 0.459), hsla(160, 81%, 60%, 0.664));
+    background: -webkit-linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagen.jpg);
+    background: linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagen.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    background-color: hsl(229, 78%, 15%);
 }
+
+
 
 nav{
     text-align: right;
@@ -30,10 +32,10 @@ header .textos-header{
     display: flex;
     height: 430px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 .textos-header h1{
