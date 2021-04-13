@@ -7,8 +7,11 @@
   </nav>
 
   <section class="container textos-header">
-      <h1>Grupo Pymex</h1>
-      <h2>Impulsamos y Digitalizamos Tu negocio</h2>
+    <h4 style="color: #ffffff;"> <img src="/assets/logo.jpg" class="img-fluid"> Pymex</h4>
+  </section>
+
+  <section class="container titulo-page">
+    <h1 style="color: #ffffff; font-size: 58px !important;"> Impulsamos y Digitalizamos Tu negocio</h1>
   </section>
 
  
@@ -111,29 +114,79 @@
         </div>
       </section>  
   </main>
-  <form class="formulario">
-    <div class="login-box">
-      <img class="avatar" src="imagenes/favicon.jpg" alt="Logo de Piña">
-    
-      <h1><br><br>Informacion personal</h1>
-    
-     
-      <input type="text" placeholder="Nombres" id="nombres" >
-    
-      <input type="text" placeholder="Apellidos" id="apellido" >
-    
-      <input type="text" placeholder="Numero de documento" id="numero" >
-      <br>
-    
-      <select name="Genero" id="Genero" >
-        <option value="Hombre">Hombre</option>
-        <option value="Mujer">Mujer</option>
-        <option value="Otro">Otro</option>
-            
-      </select><br><br><br><br>
-    
-      
+  <div class="container-fluid py-3" style="background-color: #ffffff;">
+    <div class="container-fluid my-5">
+        <div class="col-12 col-md-5 mx-auto sombra" style="border-style: solid !important; border-color: #858586 !important; border-width: 1px; border-radius: 10px;">
+            <div class="card ">
+                <div class="card-body py-5">
+                    <div class="px-2">
+                        <p class="h3 font-weight-bold text-center">Nueva cuenta</p>
+                        <p class="text-center text-muted">Completa todos los datos para crear tu cuenta en la comunidad
+                            de
+                            clientes VIP Fideli</p>
+                        <hr>
+
+                            <div #completar>
+
+                            
+
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <p>Nombre<b class="text-danger">*</b></p>
+                                        <input type="text" class="form-control" placeholder="Ej: Juan">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Apellido<b class="text-danger">*</b></p>
+                                        <input type="text"class="form-control" placeholder="Ej: Perez">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <p>Correo electrónico <b class="text-danger">*</b></p>
+                                    <input type="email" class="form-control" [required] placeholder="Ej: tucorreo@dominio.com">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <p>No. de identificación <b class="text-danger">*</b></p>
+                                        <input type="number"  class="form-control" placeholder="Ej: 1234567890">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Sexo <b class="text-danger">*</b></p>
+                                        <select class="form-control" >
+                                            <option value="F">Femenino</option>
+                                            <option value="M">Másculino</option>
+                                        </select>
+                                    </div>
+                                </div>    
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <p>Número telefónico <b class="text-danger">*</b></p>
+                                        <input type="number" [class="form-control" placeholder="Ej: 3001234567">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Fecha de nacimiento <b class="text-danger">*</b></p>
+                                        <input type="date"  class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <p>Contraseña (mínimo 6 caracteres) <b class="text-danger">*</b></p>
+                                    <input type="password"  class="form-control" placeholder="Ej: ******">
+                                </div>
+                            </div>
+
+                        <div>
+                            <button class="btn btn-fideli-2 btn-block">Crear cuenta</button>
+
+
+                            <button class="btn btn-dark btn-block" routerLink="/cuenta/login">Cancelar</button>
+                            <hr>
+                            <p>Al crear una cuenta estás aceptando nuestros <a class="text-fideli font-weight-bold" href="https://www.fideli.com.co/tyc/" >Términos y condiciones</a> y <a href="https://https://www.fideli.com.co/politica/"  class="text-fideli font-weight-bold">Tratamiento de datos</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </form>
+</div>
 
 </div>   
