@@ -15,10 +15,24 @@ header {
     border-color: #081344;
     border-radius: 50%;
     padding: 20px;
+    text-align: center;
 }
 .menu{
-    background-color: #ffffff;
     height: 70px;
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: #fff;
+
+}
+.menu a{
+    margin-left: 60px;
+}
+.titulo {
+    padding-top: 50px;
+    color: #081342;
+    font-weight: bold;
+    font-size: 36px !important;
+
 }
 
 .img-fluid{
@@ -35,7 +49,7 @@ header {
 }
 nav{
     text-align: right;
-    padding: 30px 50px 0 0;
+    padding: 25px 50px 0 0;
 
 }
 
@@ -44,10 +58,17 @@ nav > a{
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    padding: 10px;
 }
 
-nav > a:hover{
-    text-decoration: underline;
+.menu a:hover{
+    border-style: solid;
+    border-color: #081342;
+    border-width: 1px;
+    padding: 10px;
 }
 
 .textos-header{
@@ -159,30 +180,25 @@ main .pf-1{
 
 .frase{
     color:rgb(0, 0, 0);
-
     height: 200px;
     padding: 0%;
     justify-content: center;
-    left: 20px !important;
     position: absolute;
     padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 50%;
 }
 
 .img-parrafo{
     color:rgb(0, 0, 0);
-
-    height: 200px;
+    height: 500px;
     padding: 0%;
     justify-content: center;
-    left: 20px !important;
+    right: 50px !important;
     position: absolute;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 50%;
+    width: 500px !important;
 
 }
 
@@ -197,9 +213,9 @@ main .pf-1{
 }
 .btn-wsp{
     position: fixed;
-    width: 70px;
-    height: 70px;
-    line-height: 55px;
+    width: 75px;
+    height: 75px;
+    line-height: 65px;
     bottom: 30px;
     right: 30px;
     background: #0df053;
@@ -248,6 +264,11 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
+}
+
+.contactar{
+    min-width: 600px;
 }
 .btn1{
     background: #1DA8BC;
@@ -264,6 +285,7 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 
 .btn2{
@@ -281,6 +303,7 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn3{
     background: #80CFE1;
@@ -300,6 +323,7 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn5{
     background: #1DA8BC;
@@ -316,6 +340,7 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn6{
     background: #1DA8BC;
@@ -332,6 +357,7 @@ main .pf-1{
     position: relative;
     padding: 20px;
     color: transparent;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn7{
     background: #80CFE1;
@@ -387,7 +413,7 @@ main .pf-1{
 }
   
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
   
   
@@ -452,25 +478,18 @@ main .pf-1{
 }
 
 .servicio-ind{
-    width: 25%;
+    width: 20%;
     text-align: center;
-    line-height: 40px;
     letter-spacing: -0.05em;
 }
 
-.servicio-ind h3{
-    margin: 10px 0;
-    vertical-align: middle;
-}
 
 .servicio-ind p{
+    margin-top : 10px;
     font-weight: 300;
     color:  #696969;
-    font-size: 15px;
-    line-height: 18px;
     font-weight: 400;
     text-align: center !important;
-    margin-left: 50px !important;
    
 }
 
