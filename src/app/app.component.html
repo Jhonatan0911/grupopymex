@@ -106,44 +106,110 @@
 
     <section class="portafolio">
       <div class="container">
-        <h2 class="titulo">Te brindamos asesoría y acompañamiento en:</h2>
-        <div class="we-video-info">
+        <h2 class="titulo">Te brindamos asesoría y acompañamiento en:</h2><br>
+        <div class="rotate row">
           <ul>
             <li class="social-media">
-              <div class="menu">
-                <div class="btn trigger"><img class="" src="/assets/icon-ventajas/licencia.png"></div>
-
+              <div class="2-arriba row" style="margin-left: 30px;">
                 <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i><img class="" src="/assets/ico-menu/user.png"></i></a></div>
+                  <button class="btn btn-icon btn1" (click)="parrafo1 != parrafo1" ><img class="" src="/assets/ico-menu/user.png"></button>
                 </div>
                 <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i><img class="" src="/assets/ico-menu/user.png"></i></a></div>
-                </div>
-                <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i ><img class="" src="/assets/ico-menu/user.png"></i></a></div>
-                </div>
-                <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i ><img class="" src="/assets/ico-menu/user.png"></i></a></div>
-                </div>
-                <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i ><img class="" src="/assets/ico-menu/user.png"></i></a></div>
-                </div>
-                <div class="rotater">
-                  <div class="btn btn-icon"><a href="#" title="HTML"><i><img class="" src="/assets/ico-menu/user.png"></i></a></div>
+                  <button class="btn btn-icon btn2" (click)="parrafo2=true" ><img class="" src="/assets/ico-menu/user.png"></button>
                 </div>
               </div>
+              <div class="3-medio row">
+                <div class="rotater">
+                  <button class="btn btn-icon btn3" (click)="parrafo3=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                </div>
+                <div class="rotater"> 
+                  <button  class="btn btn-icon btn4" (click)="parrafo4=true" ><img class="" src="/assets/ico-menu/user.png"></button>
+                </div>
+                <div class="rotater"> 
+                  <button class="btn btn-icon btn5"><img class="" src="/assets/ico-menu/user.png"></button>
+                </div>
+              </div>
+              <div class="2-abajo row" style="margin-left: 30px;">
+                <div class="rotater">
+                  <button class="btn btn-icon btn6" (click)="parrafo5=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                </div>
+                <div class="rotater">
+                  <button class="btn btn-icon btn7" (click)="parrafo6=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                </div>
+               </div>
             </li>
           </ul>
-        </div>
-        <script type="text/javascript" src="js/">
-
-        </script>
-
-        <div class="galeria-port">
-          <div class="imagen-port">
-            <img src="" alt="">
-            <p style="color: #ffffff !important;"><a class="link" href="loginmedic.html">Coaching Empresarial Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio eius natus repellat iusto veniam molestiae similique autem! Quidem adipisci deserunt mollitia unde ab praesentium numquam repudiandae voluptatum aut pariatur?</a></p>
-            <a class="link" href="loginmedic.html"></a>
+          <div *ngIf="parrafo1" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Coaching Empresarial </ul>
+                <li> Asesorías en línea </li>
+                <li> Junta Directiva Pymex </li>
+                <li> Alianzas educativas </li>
+                <li> Programa de fortalecimiento </li>
+                <li> Cursos y talleres </li>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="parrafo2" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Marketing y Publicidad </ul>
+                <li> Plan de marketing </li>
+                <li> Estrategias Offline y Online </li>
+                <li> Campañas de medios </li>
+                <li> Redes sociales </li>
+                <li> Diseño gráfico </li>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="parrafo3" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Herramientas Tecnológicas </ul>
+                <li> Plataformas Web </li>
+                <li> Softwares a la medida </li>
+                <li> Apps móviles </li>
+                <li> Plataformas en la nube </li>
+                <li> IOT (internet de las cosas) </li>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="parrafo4" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Outsourcing Comercial </ul>
+                <li> Dropshipping </li>
+                <li> Plan de expansión </li>
+                <li> Red de ventas x % comisión </li>
+                <li> Búsqueda de nuevos clientes </li>
+                <li> Programas de fidelización </li>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="parrafo5" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Soluciones logísticas </ul>
+                <li> Administración de flotas </li>
+                <li> Software de gestión de envíos </li>
+                <li> App para conductores </li>
+                <li> E-commerce </li>
+                <li> Última milla </li>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="parrafo6" class="tarjeta-informacion col">
+            <div class="info">
+              <div class="Titulo" style="color: #000000 !important;">
+                <ul> Comunidad Pymex </ul>
+                <li> Networking </li>
+                <li> Red de emprendedores </li>
+                <li> Red de pymes </li>
+                <li> Eventos </li>
+                <li> Alianzas estratégicas </li>
+              </div>
+            </div>
           </div>
         </div>
       </div>
