@@ -81,8 +81,8 @@ nav > a{
     text-align: left;
 }
 .btn-icon{
-    height: 100px !important;
-    width: 100px !important;
+    height: 120px !important;
+    width: 120px !important;
     margin: 10px;
     border-radius: 50%;
 }
@@ -249,9 +249,13 @@ main .pf-1{
    
 }
 .fondo-form {
-    background-image:url(/assets/imagen.jpg) ;
     background-size: cover;
-    position: relative;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(0, 0%, 100%, 0.664)), url(/assets/imagen.jpg);
+    background: linear-gradient(to right, hsla(229, 8%, 72%, 0.459), hsla(0, 0%, 97%, 0.664)), url(/assets/imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .btn1:hover{
@@ -424,7 +428,7 @@ main .pf-1{
 .tarjeta-informacion {
     margin-left: 100px;
     padding-top: 30px;
-    border-radius: 6px;
+    border-radius: 15px;
     text-align: left;
    
 }
