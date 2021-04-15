@@ -1,17 +1,21 @@
-<header>
-  <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Ayuda</a>
-      <a href="#">Servicios</a>
-      <a href="#">Contacto</a>
+<div class="sticky-top menu">
+  <nav class="col">
+    <a href="#">Inicio</a>
+    <a href="#">Ayuda</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
   </nav>
 
-  <section class="container textos-header">
-    <h4 style="color: #ffffff;"> <img src="/assets/logo.jpg" class="img-fluid"> Pymex</h4>
-  </section>
+<div class="container textos-header">
+  <img src="/assets/logo.jpg" class="img-fluid">
+</div>
+</div>
+<header >
+
+ 
 
   <section class="container titulo-page">
-    <h1 style="font-weight: bold; color: #ffffff; font-size: 58px !important;  width: 700px !important; "> Impulsamos y Digitalizamos Tu <br>negocio</h1><br>
+    <h1 style="font-weight: bold; color: #ffffff; font-size: 58px !important;  width: 700px !important; padding-top: 200px;"> Impulsamos y Digitalizamos Tu <br>negocio</h1><br>
     <h6 style="color: #ffffff; font-size: 28px !important; width: 400px !important;"> Acompañamos tu negocio en el día a día</h6>
     <div class="logos">
     
@@ -33,18 +37,20 @@
   
   <main>
     <section class="container pf-1">
-      <div class="frase">
-        <p style="color: rgb(0, 0, 0); text-align: center; font-size: 20px !important;">
-          "Queremos que tu negocio sea exitoso y estaremos a tu lado en el proceso"  
-        </p>
-      </div>
-      <h2 class="titulo " style="width: 100%; text-align: center; color: #081342;">¿Por qué trabajar con nosotros?</h2>
+      <img src="/assets/imagenes/img-parrafo.jpg" class="img-parrafo">
+      <h2 class="titulo " style="font-size: 36px; width: 100%; text-align: left; color: #081342;">¿Por qué trabajar con nosotros?</h2>
+      
       <div class="contenedor-pf-1">
-        <div class="" style="color: #858586; width: 500px; margin-left: 320px; margin-top: 20px;">
-          <p style="text-align: center;">Nuestro equipo de profesionales expertos están dispuestos a ofrecerte la solución que más se ajuste para ayudarte a cumplir los objetivos de tu negocio. Podrás tener el acompañamiento ncesario para tomar las mejores decisiones y aprovechar las oportunidades que se presenten. </p>
+        <div class="" style="color: #858586; width: 600px; margin-top: 20px;">
+          <p style="text-align: left; font-size: 20px;">Nuestro equipo de profesionales expertos están dispuestos a ofrecerte la solución que más se ajuste para ayudarte a cumplir los objetivos de tu negocio. Podrás tener el acompañamiento ncesario para tomar las mejores decisiones y aprovechar las oportunidades que se presenten. </p>
         </div>
       </div>
   
+      <div class="frase">
+        <p style="color: rgb(0, 0, 0); text-align: center; font-size: 50px !important;">
+          "Queremos que tu negocio sea exitoso y estaremos a tu lado en el proceso"  
+        </p>
+      </div>
     </section>
     <br>
     <br>
@@ -55,21 +61,21 @@
       <div class="container">
         <h2 class="titulo" style="margin-bottom: 30px !important; ">¿Sabias Que?</h2>
         <div class="servicio-cont">
-          <div class="servicio-ind">
-            <h3 style="color: #1DA8BC !important; font-size: 36px !important;"><img src="/assets/icon-porcentajes/user.png" alt=""> 85% </h3>
-            <p>De las empresas en Latam son Pymes</p>
+          <div class="servicio-ind" style="text-align: center !important; ">
+            <h3 style="color: #1DA8BC !important; font-size: 100px !important;"> 85% </h3>
+            <p style="width: 50%; text-align: center !important;">De las empresas en Latam son Pymes</p>
           </div>
           <div class="servicio-ind">
-            <h3  style="color: #1DA8BC !important; font-size: 36px !important;"><img src="/assets/icon-porcentajes/empleados.png" alt=""> 65% </h3>
-            <p>De los empleos provienen de las Pymes</p>
+            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 65% </h3>
+            <p style="width: 50%; text-align: center !important;">De los empleos provienen de las Pymes</p>
           </div>
           <div class="servicio-ind">
-            <h3  style="color: #1DA8BC !important; font-size: 36px !important;"><img src="/assets/icon-porcentajes/seguro.png" alt=""> 70% </h3>
-            <p>De las pymes no tienen acceso a información</p>
+            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 70% </h3>
+            <p style="width: 50%; text-align: center !important;">De las pymes no tienen acceso a información</p>
           </div>
           <div class="servicio-ind">     
-            <h3  style="color: #1DA8BC !important; font-size: 36px !important;"><img src="/assets/icon-porcentajes/credito.png" alt=""> 62% </h3>
-            <p>De las pymes no tienen acceso a créditos</p>
+            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 62% </h3>
+            <p style="width: 50%; text-align: center !important;">De las pymes no tienen acceso a créditos</p>
           </div>
         </div>
       </div>
@@ -106,178 +112,216 @@
 
     <section class="portafolio">
       <div class="container">
-        <h2 class="titulo">Te brindamos asesoría y acompañamiento en:</h2><br>
-        <div class="rotate row">
+        <h2 class="titulo">Te brindamos asesoría y acompañamiento en:</h2><br><br><br>
+        <div class="rotate row"style="margin-left: 50px;">
           <ul>
-            <li class="social-media">
-              <div class="2-arriba row" style="margin-left: 30px;">
+            <a class="social-media" >
+              <div class="2-arriba row" style="margin-left: 48px;">
                 <div class="rotater">
-                  <button class="btn btn-icon btn1" (click)="parrafo1 != parrafo1" ><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn1" (click)="parrafo1=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >C</button>
                 </div>
                 <div class="rotater">
-                  <button class="btn btn-icon btn2" (click)="parrafo2=true" ><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn2" (click)="parrafo2=true" (click)="parrafo1=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >M</button>
                 </div>
               </div>
               <div class="3-medio row">
                 <div class="rotater">
-                  <button class="btn btn-icon btn3" (click)="parrafo3=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn3" (click)="parrafo3=true" (click)="parrafo2=false" (click)="parrafo1=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false">H</button>
                 </div>
                 <div class="rotater"> 
-                  <button  class="btn btn-icon btn4" (click)="parrafo4=true" ><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button  class="btn btn-icon btn4" ></button>
                 </div>
                 <div class="rotater"> 
-                  <button class="btn btn-icon btn5"><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn5" (click)="parrafo4=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo1=false" (click)="parrafo5=false" (click)="parrafo6=false">O</button>
                 </div>
               </div>
-              <div class="2-abajo row" style="margin-left: 30px;">
+              <div class="2-abajo row" style="margin-left: 48px;">
                 <div class="rotater">
-                  <button class="btn btn-icon btn6" (click)="parrafo5=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn6" (click)="parrafo5=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo1=false" (click)="parrafo6=false">S</button>
                 </div>
                 <div class="rotater">
-                  <button class="btn btn-icon btn7" (click)="parrafo6=true"><img class="" src="/assets/ico-menu/user.png"></button>
+                  <button class="btn btn-icon btn7" (click)="parrafo6=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo1=false">C</button>
                 </div>
                </div>
-            </li>
+            </a>
           </ul>
-          <div *ngIf="parrafo1" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Coaching Empresarial </ul>
-                <li> Asesorías en línea </li>
-                <li> Junta Directiva Pymex </li>
-                <li> Alianzas educativas </li>
-                <li> Programa de fortalecimiento </li>
-                <li> Cursos y talleres </li>
-              </div>
+          <div *ngIf="parrafo1" class="tarjeta-informacion col info1 sombra">
+            <div class="titulo text-left font-weight-bold" style="font-size: 36px;margin-left: 35px;"> Coaching Empresarial </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+              <li> Asesorías en línea </li><br>
+              <li> Cursos y talleres </li>
+              <li> Alianzas educativas </li> 
+              <li> Junta Directiva Pymex </li> 
+              <li> Programa de fortalecimiento </li>
             </div>
           </div>
-          <div *ngIf="parrafo2" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Marketing y Publicidad </ul>
-                <li> Plan de marketing </li>
-                <li> Estrategias Offline y Online </li>
-                <li> Campañas de medios </li>
-                <li> Redes sociales </li>
-                <li> Diseño gráfico </li>
-              </div>
+          <div *ngIf="parrafo2" class="tarjeta-informacion col info2 sombra">
+            <div class="titulo text-center font-weight-bold" style="font-size: 36px; margin-left: 35px;"> Marketing y Publicidad </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+              <li> Plan de marketing </li>
+              <li> Campañas de medios </li> 
+              <li> Redes sociales </li> 
+              <li> Estrategias Offline y Online </li>
+              <li> Diseño grafico </li>
             </div>
           </div>
-          <div *ngIf="parrafo3" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Herramientas Tecnológicas </ul>
-                <li> Plataformas Web </li>
-                <li> Softwares a la medida </li>
-                <li> Apps móviles </li>
-                <li> Plataformas en la nube </li>
-                <li> IOT (internet de las cosas) </li>
-              </div>
+          <div *ngIf="parrafo3" class="tarjeta-informacion col info3 sombra">
+            <div class="titulo text-center font-weight-bold" style="font-size: 36px;"> Herramientas Tecnológicas </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+              <li> Plataformas Web </li>
+              <li> Softwares a la medida </li>
+              <li> Apps móviles </li> 
+              <li> Plataformas en la nube </li>
+              <li> IOT (internet de las cosas) </li>
             </div>
           </div>
-          <div *ngIf="parrafo4" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Outsourcing Comercial </ul>
-                <li> Dropshipping </li>
-                <li> Plan de expansión </li>
-                <li> Red de ventas x % comisión </li>
-                <li> Búsqueda de nuevos clientes </li>
-                <li> Programas de fidelización </li>
-              </div>
+          <div *ngIf="parrafo4" class="tarjeta-informacion col info4 sombra">
+            <div class="titulo text-center font-weight-bold" style="font-size: 36px;"> Outsourcing Comercial </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+             <li> Dropshipping  </li>
+             <li> Plan de expansión </li>
+             <li> Red de ventas x % comisión </li> 
+             <li> Búsqueda de nuevos clientes </li>
+             <li> Programas de fidelización </li>
             </div>
           </div>
-          <div *ngIf="parrafo5" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Soluciones logísticas </ul>
-                <li> Administración de flotas </li>
-                <li> Software de gestión de envíos </li>
-                <li> App para conductores </li>
-                <li> E-commerce </li>
-                <li> Última milla </li>
-              </div>
+          <div *ngIf="parrafo5" class="tarjeta-informacion col info5 sombra">
+            <div class="titulo text-center font-weight-bold" style="font-size: 36px;"> Soluciones logísticas </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+            <li> Administración de flotas  </li>
+             <li> Software de gestión de envíos </li>
+             <li> Última milla </li>
+            <li> App para conductores </li> 
+            <li> E-commerce </li>
             </div>
           </div>
-          <div *ngIf="parrafo6" class="tarjeta-informacion col">
-            <div class="info">
-              <div class="Titulo" style="color: #000000 !important;">
-                <ul> Comunidad Pymex </ul>
-                <li> Networking </li>
-                <li> Red de emprendedores </li>
-                <li> Red de pymes </li>
-                <li> Eventos </li>
-                <li> Alianzas estratégicas </li>
-              </div>
+          <div *ngIf="parrafo6" class="tarjeta-informacion col info6 sombra">
+            <div class="titulo text-center font-weight-bold" style="font-size: 36px;"> Comunidad Pymex </div>
+            <hr style="background-color: #1DA8BC;">
+            <div class="info" style="text-align: left; font-size: 35px;">
+             <li> Networking  </li>
+             <li> Red de emprendedores </li>
+             <li> Red de pymes </li> 
+             <li> Alianzas estratégicas </li>
+             <li> Eventos pymes </li> 
             </div>
           </div>
+          </div>
+        </div>
+    </section>  
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="pasos container col-12">
+      <h1>¿Cómo lo hacemos? Nuestra Metodología</h1><br><br><br>
+      <div class="container row col-12">
+        <div class="card col" style="border-color: #80CFE1; border-style: solid; text-align: center;">
+          <h3>Fase 1</h3>
+          <p>Contáctanos y cuéntanos tus necesidades</p>
+        </div>
+        <div class="card col" style="border-color: #55c7e0; border-style: solid; text-align: center;">
+          <h3>Fase 2</h3>
+          <p>Identificamos las oportunidades</p>
+        </div>
+        <div class="card col" style="border-color: #39b4c7; border-style: solid; text-align: center;">
+          <h3>Fase 3</h3>
+          <p>Implementamos herramientas</p>
+        </div>
+        <div class="card col" style="border-color: #11a4bb; border-style: solid; text-align: center;">
+          <h3>Fase 4</h3>
+          <p>Validamos resultados</p>
+        </div>
+        <div class="card col" style="border-color: #0095ac; border-style: solid; text-align: center;">
+          <h3>Fase 5</h3>
+          <p>Ajustamos y seguimos adelante</p>
         </div>
       </div>
-    </section>  
+    
+    </section>
 
-  </main>
-  <div class="container-fluid " style="background-color: #ffffff;">
-    <div class="container-fluid my-5">
-        <div class="col-12 col-md-5 mx-auto sombra" style="border-style: solid !important; border-color: #858586 !important; border-width: 1px; border-radius: 10px;">
-            <div class="card ">
-                <div class="card-body py-5">
-                    <div class="px-2">
-                        <p class="h3 font-weight-bold text-center">Contactenos</p>
-                        <hr>
-                                <div class="form-row">
-                                  <div class="form-group col-md-6">
-                                      <p>Nombre<b class="text-danger">*</b></p>
-                                      <input type="text" class="form-control" placeholder="Ej: Juan">
+  </main><br><br><br>
+<div class="fondo-form">
+  <div class="container row"> 
+    <div class="container col" style=" margin-bottom: 0px;">
+      <div class="container my-5">
+        <h1 style="color: #fff; max-width: 500px; display:flex;  padding-top: 50px ; position: absolute;">Empieza AHORA – incluir frase motivacional</h1>
+          <div class="col-12 col-md-5 mx-right" style="margin-left: 80vh; padding-top: 150px;" >
+              <div class="card "style="border-style: solid !important; border-color: #858586 !important; border-width: 1px; border-radius: 10px; ">
+                
+                  <div class="card-body py-5" style="display:flex;">
+                      <div class="px-2">
+                          <p class="h3 font-weight-bold text-center">Contactenos</p>
+                          <hr>
+                                  <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <p>Nombre<b class="text-danger">*</b></p>
+                                        <input type="text" class="form-control" placeholder="Ej: Juan">
+                                    </div>
+                                      <div class="form-group col-md-6">
+                                          <p>Apellido<b class="text-danger">*</b></p>
+                                          <input type="text"class="form-control" placeholder="Ej: Perez">
+                                      </div>
                                   </div>
-                                    <div class="form-group col-md-6">
-                                        <p>Apellido<b class="text-danger">*</b></p>
-                                        <input type="text"class="form-control" placeholder="Ej: Perez">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <p>Correo electrónico <b class="text-danger">*</b></p>
-                                    <input type="email" class="form-control" [required] placeholder="Ej: tucorreo@dominio.com">
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <p>No. de identificación <b class="text-danger">*</b></p>
-                                        <input type="number"  class="form-control" placeholder="Ej: 1234567890">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <p>Sexo <b class="text-danger">*</b></p>
-                                        <select class="form-control" >
-                                            <option value="F">Femenino</option>
-                                            <option value="M">Másculino</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <p>Número telefónico <b class="text-danger">*</b></p>
-                                        <input type="number" class="form-control" placeholder="Ej: 3001234567">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <p>Fecha de nacimiento <b class="text-danger">*</b></p>
-                                        <input type="date"  class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <p>Contraseña (mínimo 6 caracteres) <b class="text-danger">*</b></p>
-                                    <input type="password"  class="form-control" placeholder="Ej: ******">
-                                </div>
-                            
+                                  <div class="form-group">
+                                      <p>Correo electrónico <b class="text-danger">*</b></p>
+                                      <input type="email" class="form-control" [required] placeholder="Ej: tucorreo@dominio.com">
+                                  </div>
+                                  <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                          <p>No. de identificación <b class="text-danger">*</b></p>
+                                          <input type="number"  class="form-control" placeholder="Ej: 1234567890">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <p>Sexo <b class="text-danger">*</b></p>
+                                          <select class="form-control" >
+                                              <option value="F">Femenino</option>
+                                              <option value="M">Másculino</option>
+                                          </select>
+                                      </div>
+                                  </div>    
+                                  <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                          <p>Número telefónico <b class="text-danger">*</b></p>
+                                          <input type="number" class="form-control" placeholder="Ej: 3001234567">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <p>Fecha de nacimiento <b class="text-danger">*</b></p>
+                                          <input type="date"  class="form-control">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <p>Contraseña (mínimo 6 caracteres) <b class="text-danger">*</b></p>
+                                      <input type="password"  class="form-control" placeholder="Ej: ******">
+                                  </div>
+                              
 
-                        <div>
-                            <button class="btn btn-dark btn-block">Crear contacto</button>
-                            <hr>
-                            <p>Al crear estás aceptando nuestros <a class="text-fideli font-weight-bold" href="" >Términos y condiciones</a> y <a href=""  class="text-fideli font-weight-bold">Tratamiento de datos</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </div>  
+                          <div>
+                              <button class="btn btn-dark btn-block">Crear contacto</button>
+                              <hr>
+                              <p>Al crear estás aceptando nuestros <a class="text-fideli font-weight-bold" href="" >Términos y condiciones</a> y <a href=""  class="text-fideli font-weight-bold">Tratamiento de datos</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>  
+      </div>
     </div>
-  </div>
- 
+    <div class="container col comentar" style="width: 400px; margin-left: 10vh !important; bottom: 1px !important; background: #fff; border-top-right-radius: 10px; border-top-left-radius: 10px;"  >
+      <h2>¿Quieres comunicarte con nosotros?</h2><br>
+      <p>Si tienes alguna pregunta, queja, peticion, reclamo o felicitacion, haz click en el siguiente boton y dejanos tus opinion</p><br>
+      <button class="btn btn-comentario">Escribe un comentario</button>
+    </div>
+  </div> 
+</div>  
+<div class="footer" style="width: 100%; bottom: 0px; height: 200px; text-align: center; color: #fff; justify-content: center; padding-top: 90px;">
+  <h3> Grupo Pymex | 2021 Todos los derechos reservados</h3>
+</div>
