@@ -1,13 +1,13 @@
 
 header {
     width: 100%;
-    height: 100vh;
-    background: -webkit-linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagen.jpg);
-    background: linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagen.jpg);
+    height: 80vh;
+    background-size: cover;
+    background: -webkit-linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagenes/imagen-header.jpg);
+    background: linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagenes/imagen-header.jpg);
+    background-color: hsl(229, 78%, 15%);
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    background-color: hsl(229, 78%, 15%);
 }
 .imagenes{
     border-style: solid;
@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 .menu{
-    height: 70px;
+    height: 60px;
     font-size: 16px !important;
     font-weight: 500;
     background-color: #fff;
@@ -34,6 +34,14 @@ header {
     font-size: 36px !important;
 
 }
+.titulo1 {
+    padding-top: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 36px !important;
+
+}
+
 
 .img-fluid{
     margin-top: 2px;
@@ -43,9 +51,19 @@ header {
     position: absolute;
 }
 .portafolio {
-    background-color: #e2e2e2f3;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    width: 100%;
+    background-color: #03081F;
+    padding-bottom: 60px !important;
+    color: #fff !important;
+}
+.pasos {
+    width: 100%;
+    background: -webkit-linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagenes/imagen-footer.jpg);
+    background: linear-gradient(to right, hsla(229, 78%, 15%, 0.459), hsla(229, 78%, 15%, 0.664)), url(/assets/imagenes/imagen-footer.jpg);
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 100px !important;
+    margin-top: 60px !important;
+    background-size: cover;
 }
 nav{
     text-align: right;
@@ -91,29 +109,34 @@ nav > a{
     width: 219px;
     height: 54px;
     border-radius: 4px;
-    border-color: #1DA8BC;
+    background-color: #FF5B00;
+    border-color: #FF5B00;
+
     color: #fff;
     font-size: 20px !important;
     font-weight: bold;
 }
 .btn-hablemos:hover {
-    background-color: #1DA8BC !important;
-    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border-color: #1DA8BC !important;
+    color: rgb(255, 255, 255) !important;
     font-weight: 0 !important;
 }
 .btn-comentario {
     width: 269px;
-    height: 54px;
+    height: 44px;
     border-radius: 4px;
-    border-color: #1DA8BC;
     color: rgb(255, 255, 255);
     font-size: 20px !important;
     font-weight: bold;
-    background-color: #1DA8BC;
+    background-color: #FF5B00;
+    border-color: #FF5B00;
+    margin-left: 30px;
 }
 .btn-comentario:hover {
-    background-color: #ffffff !important;
-    color: #1DA8BC!important;
+    background-color: transparent !important;
+    border-color: #1DA8BC !important;
+    color: #ffffff!important;
     font-weight: 0 !important;
 }
 .logos{
@@ -125,10 +148,9 @@ nav > a{
     justify-content: space-between;
 }
 .comentar {
-    border: #696969;
+    border: #081342;
     border-style: solid;
-    border-width: 1px;
-    border-bottom-color: #FFF;
+    border-width: 3px;
     padding: 20px;
     padding-bottom: 40px !important;
     margin-bottom: 0px !important;
@@ -183,7 +205,6 @@ main .pf-1{
     height: 200px;
     padding: 0%;
     justify-content: center;
-    position: absolute;
     padding-top: 50px;
     border-radius: 50%;
 }
@@ -195,7 +216,7 @@ main .pf-1{
     justify-content: center;
     right: 50px !important;
     position: absolute;
-    padding-top: 0px;
+    padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     width: 500px !important;
@@ -251,161 +272,165 @@ main .pf-1{
 .fondo-form {
     background-size: cover;
     width: 100%;
-    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.459), hsla(0, 0%, 100%, 0.664)), url(/assets/imagen.jpg);
-    background: linear-gradient(to right, hsla(229, 8%, 72%, 0.459), hsla(0, 0%, 97%, 0.664)), url(/assets/imagen.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+
     background-color: hsl(0, 0%, 100%);
+}
+.rotate1{
+    transition: all 2s ease-in-out;
+}
+.rotate1:hover{
+    transform: rotate(360deg);
+}
+.rotate2{
+    transition: all 2s ease-in-out;
+}
+.rotate2:hover{
+    transform: rotate(360deg);
+}
+.rotate3{
+    transition: all 2s ease-in-out;
+}
+.rotate3:hover{
+    transform: rotate(360deg);
+}
+.rotate4{
+    transition: all 2s ease-in-out;
+}
+.rotate4:hover{
+    transform: rotate(360deg);
+}
+.rotate5{
+    transition: all 2s ease-in-out;
+}
+.rotate5:hover{
+    transform: rotate(360deg);
+}
+.rotate6{
+    transition: all 2s ease-in-out;
+}
+.rotate6:hover{
+    transform: rotate(360deg);
 }
 
 .btn1:hover{
-    background: #ffffff;
+    background: rgb(0, 154, 255);
     border-width: 1px;
-    border: #1DA8BC;
+    border: rgb(0, 154, 255);
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
     position: relative;
     padding: 20px;
-    color: transparent;
+    color: #fff;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 
 .contactar{
     min-width: 600px;
 }
+
 .btn1{
-    background: #1DA8BC;
+    border: rgb(0, 154, 255);
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
 }
 .btn2:hover{
-    background: #ffffff;
+    background: #0df053;
     border-width: 1px;
-    border: #80CFE1;
+    border: #0df053;
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
     position: relative;
     padding: 20px;
-    color: transparent;
+    color: #fff;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 
 .btn2{
-    background: #80CFE1;
+    border: #0df053;
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
+
 }
 .btn3:hover{
-    background: #ffffff;
+    background: rgb(255, 169, 0);
     border-width: 1px;
-    border: #80CFE1;
+    border: rgb(255, 169, 0);
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
-    position: relative;
     padding: 20px;
     color: transparent;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn3{
-    background: #80CFE1;
+    border: rgb(255, 169, 0);
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
 }
 .btn4{
-    background: #081342;
+    background: #03081F;
 }
 .btn5:hover{
-    background: #ffffff;
+    background: rgb(244, 255, 108);
     border-width: 1px;
-    border: #1DA8BC;
+    border: rgb(244, 255, 108);
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
-    position: relative;
     padding: 20px;
     color: transparent;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn5{
-    background: #1DA8BC;
+    border: rgb(244, 255, 108);
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
 }
 .btn6:hover{
-    background: #ffffff;
+    background: rgb(244, 65, 65);
     border-width: 1px;
-    border: #1DA8BC;
+    border: rgb(244, 65, 65);
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
-    position: relative;
     padding: 20px;
     color: transparent;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn6{
-    background: #1DA8BC;
+    border: rgb(244, 65, 65);
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
 }
 .btn7:hover{
-    background: #ffffff;
+    background: aquamarine;
     border-width: 1px;
-    border: #80CFE1;
+    border: aquamarine;
     border-style: solid;
-    background-image: url(/assets/icon-ventajas/solucion.png);
-    background-size: cover;
-    position: relative;
     padding: 20px;
     color: transparent;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn7{
-    background: #80CFE1;
+    border: aquamarine;
     font-size: 40px;
     font-weight: 700;
+    border-style: solid;
+    border-width: 4px;
+    color: #fff !important;
 }
 
 .info1{
-    background: #ffffff;
-    border-width: 1px;
-    border: #1DA8BC;
-    border-style: solid;
+
     text-align: left !important;
 
-}
-.info2{
-    background: #ffffff;
-    border-width: 1px;
-    border: #80CFE1;
-    border-style: solid;
-}
-.info3{
-    background: #ffffff;
-    border-width: 1px;
-    border: #80CFE1;
-    border-style: solid;
-}
-.info4{
-    background: #ffffff;
-    border-width: 1px;
-    border: #1DA8BC;
-    border-style: solid;
-}
-.info5{
-    background: #ffffff;
-    border-width: 1px;
-    border: #1DA8BC;
-    border-style: solid;
-}
-.info6{
-    background: #ffffff;
-    border-width: 1px;
-    border: #80CFE1;
-    border-style: solid;
 }
 
 .card {
@@ -416,9 +441,7 @@ main .pf-1{
     border-radius: 20px;
 }
   
-.card:hover {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
-}
+
   
   
 
@@ -450,7 +473,7 @@ main .pf-1{
     box-shadow: 0 0 6px 0 rgba(23, 32, 42, 0.6);
 }
 .about-services{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -489,7 +512,6 @@ main .pf-1{
 
 
 .servicio-ind p{
-    margin-top : 10px;
     font-weight: 300;
     color:  #696969;
     font-weight: 400;

@@ -14,8 +14,8 @@
 <header >
 
   <section class="container titulo-page">
-    <h1 style="font-weight: bold; color: #ffffff; font-size: 58px !important;  width: 800px !important; padding-top: 200px;"> Impulsamos y Digitalizamos tu negocio</h1><br>
-    <h6 style="color: #ffffff; font-size: 28px !important; width: 400px !important;"> Acompañamos tu negocio en el día a día</h6>
+    <h1 style="font-weight: bold; color: #ffffff; font-size: 58px !important;  width: 800px !important; padding-top: 100px;"> Impulsamos y Digitalizamos tu negocio</h1><br><br><br>
+    <h6 style="color: #ffffff; font-size: 28px !important; width: 500px !important;"> Somos un grupo de marcas y empresas tecnológicas que ayudamos a evolucionar tu negocio </h6>
     <div class="logos">
     
     </div>
@@ -35,6 +35,164 @@
 <div class="home">
   
   <main>
+    <section id="asesoria" class="portafolio">
+      <div class="container">
+        <h2 class="titulo1">Te brindamos asesoría y tecnologia en:</h2><br><br><br>
+        <div class="rotate row"style="margin-left: 20px;">
+          <ul>
+            <a class="social-media" >
+              <div class="2-arriba row" style="margin-left: 48px;">
+                <div class="rotate1">
+                  <button class="btn btn-icon btn1" (click)="parrafo1=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >C</button>
+                </div>
+                <div class="rotate2">
+                  <button class="btn btn-icon btn2" (click)="parrafo2=true" (click)="parrafo1=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >M</button>
+                </div>
+              </div>
+              <div class="3-medio row">
+                <div class="rotate3">
+                  <button class="btn btn-icon btn3" (click)="parrafo3=true" (click)="parrafo2=false" (click)="parrafo1=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false">H</button>
+                </div>
+                <div class="rotater"> 
+                  <button  class="btn btn-icon btn4" ></button>
+                </div>
+                <div class="rotate4"> 
+                  <button class="btn btn-icon btn5" (click)="parrafo4=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo1=false" (click)="parrafo5=false" (click)="parrafo6=false">O</button>
+                </div>
+              </div>
+              <div class="2-abajo row" style="margin-left: 48px;">
+                <div class="rotate5">
+                  <button class="btn btn-icon btn6" (click)="parrafo5=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo1=false" (click)="parrafo6=false">S</button>
+                </div>
+                <div class="rotate6">
+                  <button class="btn btn-icon btn7" (click)="parrafo6=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo1=false">P</button>
+                </div>
+               </div>
+            </a>
+          </ul>
+          <div *ngIf="parrafo1" class="tarjeta-informacion col info1 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px;margin-left: 35px; color: rgb(0, 154, 255);"> Coaching Empresarial </div>
+            <hr style="background-color: rgb(0, 154, 255);">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+              <li> Asesorías en línea </li><br>
+              <li> Cursos y talleres </li>
+              <li> Alianzas educativas </li> 
+              <li> Junta Directiva Pymex </li> 
+              <li> Programa de fortalecimiento </li>
+            </div>
+          </div>
+          <div *ngIf="parrafo2" class="tarjeta-informacion col info2 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: #0df053 !important;"> Marketing y Publicidad </div>
+            <hr style="background-color: #0df053">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+              <li> Plan de marketing </li>
+              <li> Campañas de medios </li> 
+              <li> Redes sociales </li> 
+              <li> Estrategias Offline y Online </li>
+              <li> Diseño grafico </li>
+            </div>
+          </div>
+          <div *ngIf="parrafo3" class="tarjeta-informacion col info3 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(255, 169, 0);"> Herramientas Tecnológicas </div>
+            <hr style="background-color: rgb(255, 169, 0);">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+              <li> Plataformas Web </li>
+              <li> Softwares a la medida </li>
+              <li> Apps móviles </li> 
+              <li> Plataformas en la nube </li>
+              <li> IOT (internet de las cosas) </li>
+            </div>
+          </div>
+          <div *ngIf="parrafo4" class="tarjeta-informacion col info4 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(244, 255, 108);"> Outsourcing Comercial </div>
+            <hr style="background-color: rgb(244, 255, 108);">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+             <li> Dropshipping  </li>
+             <li> Plan de expansión </li>
+             <li> Red de ventas x % comisión </li> 
+             <li> Búsqueda de nuevos clientes </li>
+             <li> Programas de fidelización </li>
+            </div>
+          </div>
+          <div *ngIf="parrafo5" class="tarjeta-informacion col info5 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(244, 65, 65);"> Soluciones logísticas </div>
+            <hr style="background-color: rgb(244, 65, 65);">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+            <li> Administración de flotas  </li>
+             <li> Software de gestión de envíos </li>
+             <li> Última milla </li>
+            <li> App para conductores </li> 
+            <li> E-commerce </li>
+            </div>
+          </div>
+          <div *ngIf="parrafo6" class="tarjeta-informacion col info6 sombra">
+            <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color:aquamarine"> Comunidad Pymex </div>
+            <hr style="background-color: rgb(151, 81, 216);">
+            <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+             <li> Networking  </li>
+             <li> Red de emprendedores </li>
+             <li> Red de pymes </li> 
+             <li> Alianzas estratégicas </li>
+             <li> Eventos pymes </li> 
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>  
+    <section class="about-services" style="margin-bottom: 20px;">
+      <div class="container">
+        <h2 class="titulo" style="margin-bottom: 30px !important; ">¿Sabías Que?</h2>
+        <div class="servicio-cont ">
+          <div class="servicio-ind col" style="text-align: center !important; ">
+            <h3 style="color: #FF5B00 !important; font-size: 100px !important;"> 80% </h3><br>
+            <p style="font-size: 30px; color: #667177;font-weight: 100; text-align: center !important;">De las Pymes fracasan antes de los 5 años </p>
+          </div>
+          <div class="servicio-ind col">
+            <h3  style="color: #FF5B00 !important; font-size: 100px !important;"> 65% </h3><br>
+            <p  style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por ingresos insuficientes
+            </p>
+          </div>
+          <div class="servicio-ind col">
+            <h3  style="color: #FF5B00 !important; font-size: 100px !important;"> 48% </h3><br>
+            <p style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por falta de indicadores
+            </p>
+          </div>
+          <div class="servicio-ind col">     
+            <h3  style="color: #FF5B00 !important; font-size: 100px !important;"> 44% </h3><br>
+            <p style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por falta de análisis y/o de planeación
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="ventajas" class="about-services" style="margin-bottom: 50px;">
+      <div class="container">
+        <h2 class="titulo">Ventajas de Grupo Pymex</h2><br><br>
+        <div class="servicio-cont">
+          <div class="servicio-ind">
+            <img class="imagenes" src="/assets/icon-ventajas/licencia.png" alt=""><br>
+            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100; margin-top: 25px;">Ayudamos a reducir sus costes y automatizar sus procesos
+            </p>
+          </div>
+          <div class="servicio-ind">
+            <img class="imagenes" src="/assets/icon-ventajas/solucion.png" alt=""><br>
+            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Tecnologias para mejorar la gestión del negocio</p>
+          </div>
+          <div class="servicio-ind">
+            <img class="imagenes" src="/assets/icon-ventajas/mercado.png" alt=""><br>
+            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Creamos nuevas oportunidades para tu negocio</p>
+          </div>
+          <div class="servicio-ind">
+            <img class="imagenes" src="/assets/icon-ventajas/compra.png" alt=""><br>
+            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Consigue nuevos clientes y Fideliza los actuales</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
     <div  id="inicio" class="container pf-1">
       <img src="/assets/imagenes/img-parrafo.jpg" class="img-parrafo">
       <h2 class="titulo font-weight-bold" style="font-size: 36px; width: 100%; text-align: left; color: #081342;">¿Por qué trabajar con nosotros?</h2>
@@ -47,210 +205,57 @@
       <br><br><br><br>
   
       <div class=" container frase">
-        <p style="color: #1DA8BC ; text-align: center !important; font-size: 60px !important; font-style: italic;">
+        <p style="color: #1DA8BC ; text-align: center !important; font-size: 50px !important; font-style: italic;">
           "Queremos que tu negocio sea exitoso y estaremos a tu lado en el proceso"  
         </p>
+        <br>
+        <br>
+        <br>
+        <br>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
+
     
     
-    
-    <section class="about-services">
-      <div class="container">
-        <br><br><br><br><h2 class="titulo" style="margin-bottom: 30px !important; ">¿Sabias Que?</h2>
-        <div class="servicio-cont">
-          <div class="servicio-ind" style="text-align: center !important; ">
-            <h3 style="color: #1DA8BC !important; font-size: 100px !important;"> 85% </h3>
-            <p style="font-size: 30px; line-height:36px; color: #667177;font-weight: 100; text-align: center !important;">De las empresas en Latam son Pymes</p>
-          </div>
-          <div class="servicio-ind">
-            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 65% </h3>
-            <p  style="font-size: 30px; line-height:36px; color: #667177;font-weight: 100;  text-align: center !important;">De los empleos provienen de las Pymes</p>
-          </div>
-          <div class="servicio-ind">
-            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 70% </h3>
-            <p style="font-size: 30px; line-height:36px; color: #667177;font-weight: 100;  text-align: center !important;">De las pymes no tienen acceso a información</p>
-          </div>
-          <div class="servicio-ind">     
-            <h3  style="color: #1DA8BC !important; font-size: 100px !important;"> 62% </h3>
-            <p style="font-size: 30px; line-height:36px; color: #667177;font-weight: 100;  text-align: center !important;">De las pymes no tienen acceso a créditos</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="ventajas" class="about-services">
-      <div class="container">
-        <h2 class="titulo">Ventajas de Grupo Pymex</h2><br><br>
-        <div class="servicio-cont">
-          <div class="servicio-ind">
-            <img class="imagenes" src="/assets/icon-ventajas/licencia.png" alt=""><br>
-            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100; margin-top: 25px;">Profesionales dispuestos a orientar tu negocio</p>
-          </div>
-          <div class="servicio-ind">
-            <img class="imagenes" src="/assets/icon-ventajas/solucion.png" alt=""><br>
-            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Soluciones  para mejorar la gestión del negocio</p>
-          </div>
-          <div class="servicio-ind">
-            <img class="imagenes" src="/assets/icon-ventajas/mercado.png" alt=""><br>
-            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Desarrollo de nuevas oportunidades para tu negocio</p>
-          </div>
-          <div class="servicio-ind">
-            <img class="imagenes" src="/assets/icon-ventajas/compra.png" alt=""><br>
-            <br><p style="font-size: 24px; line-height:26px; color: #667177;font-weight: 100;">Obtienes recompras de tus clientes actuales</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="asesoria" class="portafolio">
-      <div class="container">
-        <h2 class="titulo">Te brindamos asesoría y acompañamiento en:</h2><br><br><br>
-        <div class="rotate row"style="margin-left: 20px;">
-          <ul>
-            <a class="social-media" >
-              <div class="2-arriba row" style="margin-left: 48px;">
-                <div class="rotater">
-                  <button class="btn btn-icon btn1" (click)="parrafo1=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >C</button>
-                </div>
-                <div class="rotater">
-                  <button class="btn btn-icon btn2" (click)="parrafo2=true" (click)="parrafo1=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >M</button>
-                </div>
-              </div>
-              <div class="3-medio row">
-                <div class="rotater">
-                  <button class="btn btn-icon btn3" (click)="parrafo3=true" (click)="parrafo2=false" (click)="parrafo1=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false">H</button>
-                </div>
-                <div class="rotater"> 
-                  <button  class="btn btn-icon btn4" ></button>
-                </div>
-                <div class="rotater"> 
-                  <button class="btn btn-icon btn5" (click)="parrafo4=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo1=false" (click)="parrafo5=false" (click)="parrafo6=false">O</button>
-                </div>
-              </div>
-              <div class="2-abajo row" style="margin-left: 48px;">
-                <div class="rotater">
-                  <button class="btn btn-icon btn6" (click)="parrafo5=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo1=false" (click)="parrafo6=false">S</button>
-                </div>
-                <div class="rotater">
-                  <button class="btn btn-icon btn7" (click)="parrafo6=true" (click)="parrafo2=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo1=false">C</button>
-                </div>
-               </div>
-            </a>
-          </ul>
-          <div *ngIf="parrafo1" class="tarjeta-informacion col info1 sombra">
-            <div class=" text-left font-weight-bold" style="font-size: 36px;margin-left: 35px;"> Coaching Empresarial </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-              <li> Asesorías en línea </li><br>
-              <li> Cursos y talleres </li>
-              <li> Alianzas educativas </li> 
-              <li> Junta Directiva Pymex </li> 
-              <li> Programa de fortalecimiento </li>
-            </div>
-          </div>
-          <div *ngIf="parrafo2" class="tarjeta-informacion col info2 sombra">
-            <div class=" text-center font-weight-bold" style="font-size: 36px; margin-left: 35px;"> Marketing y Publicidad </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-              <li> Plan de marketing </li>
-              <li> Campañas de medios </li> 
-              <li> Redes sociales </li> 
-              <li> Estrategias Offline y Online </li>
-              <li> Diseño grafico </li>
-            </div>
-          </div>
-          <div *ngIf="parrafo3" class="tarjeta-informacion col info3 sombra">
-            <div class=" text-center font-weight-bold" style="font-size: 36px;"> Herramientas Tecnológicas </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-              <li> Plataformas Web </li>
-              <li> Softwares a la medida </li>
-              <li> Apps móviles </li> 
-              <li> Plataformas en la nube </li>
-              <li> IOT (internet de las cosas) </li>
-            </div>
-          </div>
-          <div *ngIf="parrafo4" class="tarjeta-informacion col info4 sombra">
-            <div class=" text-center font-weight-bold" style="font-size: 36px;"> Outsourcing Comercial </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-             <li> Dropshipping  </li>
-             <li> Plan de expansión </li>
-             <li> Red de ventas x % comisión </li> 
-             <li> Búsqueda de nuevos clientes </li>
-             <li> Programas de fidelización </li>
-            </div>
-          </div>
-          <div *ngIf="parrafo5" class="tarjeta-informacion col info5 sombra">
-            <div class=" text-center font-weight-bold" style="font-size: 36px;"> Soluciones logísticas </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-            <li> Administración de flotas  </li>
-             <li> Software de gestión de envíos </li>
-             <li> Última milla </li>
-            <li> App para conductores </li> 
-            <li> E-commerce </li>
-            </div>
-          </div>
-          <div *ngIf="parrafo6" class="tarjeta-informacion col info6 sombra">
-            <div class=" text-center font-weight-bold" style="font-size: 36px;"> Comunidad Pymex </div>
-            <hr style="background-color: #1DA8BC;">
-            <div class="info" style="text-align: left; font-size: 35px;">
-             <li> Networking  </li>
-             <li> Red de emprendedores </li>
-             <li> Red de pymes </li> 
-             <li> Alianzas estratégicas </li>
-             <li> Eventos pymes </li> 
-            </div>
-          </div>
-          </div>
-        </div>
-    </section>  
-    <br>
-    <br  id="metodologia">
-    <br>
-    <br>
+    <div id="metodologia" class="pasos">
     <div class="container">
-    <section  class="pasos container col-12">
-      <h1 class="titulo">¿Cómo lo hacemos? Nuestra Metodología</h1><br><br><br>
+    <section  class=" container col-12">
+     
+      <h1 class="titulo" style="color: #fff !important;">¿Cómo lo hacemos?</h1><br><br><br>
       <div class="container row col-12">
-        <div class="card col" style="border-color: #80CFE1; border-style: solid; text-align: center;">
-          <h3>Fase 1</h3>
-          <p>Contáctanos y cuéntanos tus necesidades</p>
+        <div class="card col" style="border-color: #80CFE1; border-style: solid; text-align: center; background-color: transparent !important; border-width: 4px;" >
+          <h3 style="font-size: 28px; color: #ffffff; font-weight: bold; margin-top: 5px;">Fase 1</h3><hr style="background-color: #fff;">
+          <p style="font-size: 20px; color: #fff !important;" > Contáctanos y cuéntanos tus necesidades</p>
         </div>
-        <div class="card col" style="border-color: #55c7e0; border-style: solid; text-align: center;">
-          <h3>Fase 2</h3>
-          <p>Identificamos las oportunidades</p>
+        <div class="card col" style="border-color: #55c7e0; border-style: solid; text-align: center;  background-color: transparent !important; border-width: 4px;">
+          <h3  style="font-size: 28px; color: #ffffff; font-weight: bold;margin-top: 5px;">Fase 2</h3><hr style="background-color: #fff;">
+          <p style="font-size: 20px; color: #fff !important;">Identificamos las oportunidades</p>
         </div>
-        <div class="card col" style="border-color: #39b4c7; border-style: solid; text-align: center;">
-          <h3>Fase 3</h3>
-          <p>Implementamos herramientas</p>
+        <div class="card col" style="border-color: #39b4c7; border-style: solid; text-align: center;  background-color: transparent !important; border-width: 4px;">
+          <h3  style="font-size: 28px; margin-top: 5px; color: #ffffff; font-weight: bold;">Fase 3</h3><hr style="background-color: #fff;">
+          <p style="font-size: 20px; color: #fff !important;">Implementamos herramientas</p>
         </div>
-        <div class="card col" style="border-color: #11a4bb; border-style: solid; text-align: center;">
-          <h3>Fase 4</h3>
-          <p>Validamos resultados</p>
+        <div class="card col" style="border-color: #11a4bb; border-style: solid; text-align: center;  background-color: transparent !important; border-width: 4px;">
+          <h3  style="font-size: 28px; margin-top: 5px; color: #ffffff; font-weight: bold;">Fase 4</h3><hr style="background-color: #fff;">
+          <p style="font-size: 20px; color: #fff !important;">Validamos resultados</p>
         </div>
-        <div class="card col" style="border-color: #0095ac; border-style: solid; text-align: center;">
-          <h3>Fase 5</h3>
-          <p>Ajustamos y seguimos adelante</p>
+        <div class="card col" style="border-color: #0095ac; border-style: solid; text-align: center;  background-color: transparent !important; border-width: 4px;">
+          <h3  style="font-size: 28px; margin-top: 5px; color: #ffffff; font-weight: bold;">Fase 5</h3><hr style="background-color: #fff;">
+          <p style="font-size: 20px; color: #fff !important;">Ajustamos y seguimos adelante</p>
         </div>
       </div>
-    
+      
     </section>
   </div>
-  </main><br><br><br><br><br><br>
+  </div>
+  </main><br><br><br><br>
 <div id="contacto" class="fondo-form">
   <div class="container row"> 
     <div class="container col" style=" margin-bottom: 0px;">
       <div class="container my-5">
-        <h1 style="color: rgb(0, 0, 0); max-width: 500px; display:flex;  padding-top: 50px ; position: absolute;">Empieza AHORA – incluir frase motivacional</h1>
+        <h1 style="color: #081342; max-width: 500px; display:flex;  padding-top: 50px ; position: absolute; font-weight: bold;">Empieza AHORA – incluir frase motivacional</h1>
           <div class="col-12 col-md-5 mx-right" style="margin-left: 70vh; padding-top: 150px;" >
-              <div class="card contactar"style="border-style: solid !important; border-color: #858586 !important; border-width: 1px; border-radius: 10px; ">
+              <div class="card contactar" style="border-style: solid !important; border-color: #081342 !important; border-width: 3px; border-radius: 10px; box-shadow: 0 94px 84px 0 rgba(0, 0, 0, 0.459);">
                 
                   <div class="card-body py-5" style="display:flex;">
                       <div class="px-1">
@@ -268,22 +273,16 @@
                             <input type="email" class="form-control" [required] placeholder="¿Qué tipo de empresa soy?">
                           </div>
                           <div class="form-group">
-                            <input type="email" class="form-control" [required] placeholder="¿En qué estado se encuentra tu proyecto?">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" class="form-control" [required] placeholder="¿Cuál es el nombre de tu proyecto?">
-                          </div>
-                          <div class="form-group">
                             <input type="email" class="form-control" [required] placeholder="Descríbenos en un párrafo corto la necesidad que tienes y/o a dónde quieres llegar">
                           </div>
-                          <p class="h5 font-weight-bold text-left">Cuentanos sobre tu negocio</p>
+                          <p class="h5 font-weight-bold text-left">Información sobre tu negocio</p>
                           <br>
                           <div class="form-row">
                             <div class="form-group col-md-6">
-                              <input type="text" class="form-control" placeholder="Nombres">
+                              <input type="text" class="form-control" placeholder="Contacto">
                             </div>
                             <div class="form-group col-md-6">
-                              <input type="text" class="form-control" placeholder="Nombres">
+                              <input type="text" class="form-control" placeholder="Apellido">
                             </div>
                           </div>
                           <div class="form-group">
@@ -327,13 +326,14 @@
       </div>  
       </div>
     </div>
-    <div class="container col comentar" style="width: 400px; margin-left: 10vh !important; bottom: 1px !important; background: #fff; border-top-right-radius: 10px; border-top-left-radius: 10px;"  >
-      <h2>¿Quieres comunicarte con nosotros?</h2><br>
-      <p>Si tienes alguna pregunta, queja, peticion, reclamo o felicitacion, haz click en el siguiente boton y dejanos tus opinion</p><br>
-      <button class="btn btn-comentario">Escribe un comentario</button>
+    <div>
+    <div class="container col comentar" style="width: 400px; margin-left: 10vh !important; background: #081342; border-top-right-radius: 10px; border-top-left-radius: 10px; box-shadow: 56px 94px 84px 54px rgba(0, 0, 0, 0.459);"  >
+      <h2 style="color: #fff; margin-left: 30px;" >Comunícate con nosotros</h2><br>
+      <p style="color: #fff; padding-left: 30px;">Si tienes alguna pregunta, queja, peticion, reclamo o felicitacion, haz click en el siguiente boton y dejanos tus opinion</p><br>
+      <button class="btn btn-comentario">Escrbenos</button>
     </div>
   </div> 
 </div>  
-<div class="footer" style="width: 100%; bottom: 0px; height: 200px; text-align: center; color: #fff; justify-content: center; padding-top: 90px;">
-  <h3> Grupo Pymex | 2021 Todos los derechos reservados</h3>
+<div class="footer" style="width: 100%; bottom: 0px; height: 100px; text-align: center; color: #fff; justify-content: center; padding-top: 40px;">
+  <h5> Grupo Pymex | 2021 Todos los derechos reservados</h5>
 </div>
