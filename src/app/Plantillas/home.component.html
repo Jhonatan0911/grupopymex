@@ -14,10 +14,11 @@
   
   <div class="header">
   
-    <div class="container titulo-page">
-      <h1 style="font-weight: bold; color: #ffffff; font-size: 58px !important;  width: 800px !important; padding-top: 100px;"> Impulsamos y Digitalizamos tu negocio</h1>
+    <div class="container">
+      <h5 class="d-md-none" style="padding-top: 90px; color: #ffffff;"> Grupor Pymex </h5>
+      <h1 class="titulo-page"> Impulsamos y Digitalizamos tu negocio</h1>
       <br><br><br>
-      <h6 style="color: #ffffff; font-size: 28px !important; width: 500px !important;"> Somos un grupo de marcas y empresas tecnológicas que ayudamos a evolucionar tu negocio</h6>
+      <h6 class="d-none d-md-block" style="color: #ffffff; font-size: 28px !important; width: 500px !important;"> Somos un grupo de marcas y empresas tecnológicas que ayudamos a evolucionar tu negocio</h6>
       <div class="logos">
       
       </div>
@@ -50,7 +51,7 @@
                 <button class="btn btn-icon btn2" (click)="parrafo2=true" (click)="parrafo1=false" (click)="parrafo3=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false" >M</button>
               </div>
             </div>
-            <div class="3-medio row">
+            <div class="b-3-medio row">
               <div class="rotate3">
                 <button class="btn btn-icon btn3" (click)="parrafo3=true" (click)="parrafo2=false" (click)="parrafo1=false" (click)="parrafo4=false" (click)="parrafo5=false" (click)="parrafo6=false">H</button>
               </div>
@@ -72,9 +73,9 @@
           </a>
         </ul>
         <div *ngIf="parrafo1" class="tarjeta-informacion col info1 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px;margin-left: 35px; color: rgb(0, 154, 255);"> Coaching Empresarial </div>
+          <div class=" text-left font-weight-bold" style="color: rgb(0, 154, 255);"> Coaching Empresarial </div>
           <hr style="background-color: rgb(0, 154, 255);">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+          <div class="info">
             <li> Asesorías en línea </li><br>
             <li> Cursos y talleres </li>
             <li> Alianzas educativas </li> 
@@ -83,9 +84,9 @@
           </div>
         </div>
         <div *ngIf="parrafo2" class="tarjeta-informacion col info2 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: #0df053 !important;"> Marketing y Publicidad </div>
+          <div class=" text-left font-weight-bold" style="color: #0df053 !important;"> Marketing y Publicidad </div>
           <hr style="background-color: #0df053">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+          <div class="info">
             <li> Plan de marketing </li>
             <li> Campañas de medios </li> 
             <li> Redes sociales </li> 
@@ -94,9 +95,9 @@
           </div>
         </div>
         <div *ngIf="parrafo3" class="tarjeta-informacion col info3 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(255, 169, 0);"> Herramientas Tecnológicas </div>
+          <div class=" text-left font-weight-bold" style="color: rgb(255, 169, 0);"> Herramientas Tecnológicas </div>
           <hr style="background-color: rgb(255, 169, 0);">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+          <div class="info">
             <li> Plataformas Web </li>
             <li> Softwares a la medida </li>
             <li> Apps móviles </li> 
@@ -105,36 +106,36 @@
           </div>
         </div>
         <div *ngIf="parrafo4" class="tarjeta-informacion col info4 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(244, 255, 108);"> Outsourcing Comercial </div>
+          <div class=" text-left font-weight-bold" style="color: rgb(244, 255, 108);"> Outsourcing Comercial </div>
           <hr style="background-color: rgb(244, 255, 108);">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
+          <div class="info">
             <li> Dropshipping  </li>
-            <li> Plan de expansión </li>
             <li> Red de ventas x % comisión </li> 
             <li> Búsqueda de nuevos clientes </li>
+            <li> Plan de expansión </li>
             <li> Programas de fidelización </li>
           </div>
         </div>
         <div *ngIf="parrafo5" class="tarjeta-informacion col info5 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color: rgb(244, 65, 65);"> Soluciones logísticas </div>
+          <div class=" text-left font-weight-bold" style="color: rgb(244, 65, 65);"> Soluciones logísticas </div>
           <hr style="background-color: rgb(244, 65, 65);">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
-            <li> Administración de flotas  </li>
+          <div class="info">
+            <li> App para conductores </li> 
             <li> Software de gestión de envíos </li>
             <li> Última milla </li>
-            <li> App para conductores </li> 
+            <li> Administración de flotas  </li>
             <li> E-commerce </li>
           </div>
         </div>
         <div *ngIf="parrafo6" class="tarjeta-informacion col info6 sombra">
-          <div class=" text-left font-weight-bold" style="font-size: 36px; margin-left: 35px; color:rgb(151, 81, 216)"> Comunidad Pymex </div>
+          <div class=" text-left font-weight-bold" style="color:rgb(151, 81, 216)"> Comunidad Pymex </div>
           <hr style="background-color: rgb(151, 81, 216);">
-          <div class="info" style="text-align: left; font-size: 32px; margin-left: 35px;">
-            <li> Networking  </li>
+          <div class="info">
             <li> Red de emprendedores </li>
             <li> Red de pymes </li> 
             <li> Alianzas estratégicas </li>
             <li> Eventos pymes </li> 
+            <li> Networking  </li>
           </div>
         </div>
       </div>
@@ -147,23 +148,23 @@
       <h2 class="titulo" style="margin-bottom: 30px !important; ">¿Sabías Que?</h2>
       <div class="servicio-cont ">
         <div class="servicio-ind col" style="text-align: center !important; ">
-          <h3 style="color: #FF5B00 !important; font-size: 100px !important;"> 80% </h3>
+          <h3 class="porcentaje-titulo"> 80% </h3>
           <br>
-          <p style="font-size: 30px; color: #667177;font-weight: 100; text-align: center !important;">De las Pymes fracasan antes de los 5 años </p>
+          <p class="porciento-cont"> De las Pymes fracasan antes de los 5 años </p>
         </div>
         <div class="servicio-ind col">
-          <h3  style="color: #FF5B00 !important; font-size: 100px !important;"> 65% </h3><br>
-          <p style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por ingresos insuficientes
+          <h3 class="porcentaje-titulo"> 65% </h3><br>
+          <p class="porciento-cont">De las Pymes cierran por ingresos insuficientes
           </p>
         </div>
         <div class="servicio-ind col">
-          <h3 style="color: #FF5B00 !important; font-size: 100px !important;"> 48% </h3><br>
-          <p style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por falta de indicadores
+          <h3 class="porcentaje-titulo"> 48% </h3><br>
+          <p class="porciento-cont">De las Pymes cierran por falta de indicadores
           </p>
         </div>
         <div class="servicio-ind col">     
-          <h3 style="color: #FF5B00 !important; font-size: 100px !important;"> 44% </h3><br>
-          <p style="font-size: 29px; color: #667177;font-weight: 100;  text-align: center !important;">De las Pymes cierran por falta de análisis y/o de planeación
+          <h3 class="porcentaje-titulo" > 44% </h3><br>
+          <p class="porciento-cont">De las Pymes cierran por falta de planeación
           </p>
         </div>
       </div>
@@ -202,18 +203,17 @@
   
     
   <div id="inicio" class="container pf-1">
-    <img src="/assets/imagenes/img-parrafo.jpg" class="img-parrafo">
-    <h2 class="titulo font-weight-bold" style="font-size: 36px; width: 100%; text-align: left; color: #081342;">¿Por qué trabajar con nosotros?</h2>    
+    <img src="/assets/imagenes/img-parrafo.jpg" class="img-parrafo d-none d-md-block">
+    <h2 class="titulo font-weight-bold" style="width: 100%; text-align: left; color: #081342;">¿Por qué trabajar con nosotros?</h2>    
     <div class="contenedor-pf-1">
-      <div class="" style="color: #858586; width: 600px; margin-top: 50px;">
-        <p style="text-align: left; font-size: 30px;">Nuestro equipo de profesionales expertos están dispuestos a ofrecerte la solución que más se ajuste para ayudarte a cumplir los objetivos de tu negocio. Podrás tener el acompañamiento ncesario para tomar las mejores decisiones y aprovechar las oportunidades que se presenten. </p>
+      <div class="text-center-img">
+        <p class="parrafo-img-center" >Nuestro equipo de profesionales expertos están dispuestos a ofrecerte la solución que más se ajuste para ayudarte a cumplir los objetivos de tu negocio. Podrás tener el acompañamiento ncesario para tomar las mejores decisiones y aprovechar las oportunidades que se presenten. </p>
       </div>
+      <img src="/assets/imagenes/img-parrafo.jpg" class="img-parrafo2 d-md-none">
     </div>
     <br><br><br><br>
     <div class=" container frase">
-      <p style="color: #1DA8BC ; text-align: center !important; font-size: 50px !important; font-style: italic;">
-      "Queremos que tu negocio sea exitoso y estaremos a tu lado en el proceso"  
-      </p>
+      <p>"Queremos que tu negocio sea exitoso y estaremos a tu lado en el proceso"</p>
       <br><br><br><br>
     </div>
   </div>

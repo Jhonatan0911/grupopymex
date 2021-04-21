@@ -27,6 +27,13 @@
     margin-left: 70vh; 
     padding-top: 150px;
 }
+.titulo-page{
+    font-weight: bold;
+    color: #ffffff; 
+    font-size: 58px ;  
+    width: 800px !important; 
+    padding-top: 100px;
+}
 .titulo-form{
     display:flex;
     color: #081342; 
@@ -111,8 +118,8 @@ nav > a{
     text-align: left;
 }
 .btn-icon{
-    height: 120px !important;
-    width: 120px !important;
+    height: 120px;
+    width: 120px;
     margin: 10px;
     border-radius: 50%;
 }
@@ -269,6 +276,9 @@ main .pf-1{
     display: flex;
     flex-wrap: wrap;
     text-align: left !important;
+    text-align: left; 
+    font-size: 32px; 
+    margin-left: 35px;
 }
 
 .info{
@@ -422,16 +432,16 @@ main .pf-1{
     color: #fff !important;
 }
 .btn7:hover{
-    background: aquamarine;
+    background: rgb(151, 81, 216);
     border-width: 1px;
-    border: aquamarine;
+    border: rgb(151, 81, 216);
     border-style: solid;
     padding: 20px;
     color: transparent;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.459);
 }
 .btn7{
-    border: aquamarine;
+    border: rgb(151, 81, 216);
     font-size: 40px;
     font-weight: 700;
     border-style: solid;
@@ -530,10 +540,117 @@ main .pf-1{
     text-align: center !important;
    
 }
+.text-left{
+    font-size: 36px;
+    margin-left: 35px;
+}
+.porcentaje-titulo{
+    color: #FF5B00 !important;
+    font-size: 100px !important;
+}
+.porciento-cont{
+    font-size: 29px; 
+    color: #667177;
+    font-weight: 100; 
+    text-align: center!important;
+}
+.parrafo-img-center{
+    text-align: left; 
+    font-size: 30px;
+}
+.text-center-img{
+    color: #858586;
+    width: 600px; 
+    margin-top: 50px;
+}
 
+.frase p{
+    color: #1DA8BC ;
+    text-align: center !important; 
+    font-size: 50px !important;
+    font-style: italic;
+}
 
 @media screen and (max-width:500px){
+
+    .text-center-img{
+        width: auto; 
+        text-align: center;
+    }
+
+    .frase{
+      padding-top: 0px;
+    }
+
+    .frase p{
+        color: #1DA8BC ;
+        text-align: center !important; 
+        font-size: 30px !important;
+        font-style: italic;
+    }
+    
+
+    .parrafo-img-center{
+        text-align: center; 
+        justify-content:flex-end;
+        font-size: 18px;
+    }
+
+    .img-parrafo2{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        text-align: center;
+        display: block !important;
+        margin: auto !important;
+        margin-top: 30px !important;
+    }
+    .porcentaje-titulo{
+        color: #FF5B00 !important;
+        font-size: 40px !important;
+    }
+
+    .porciento-cont{
+        font-size: 15px; 
+    }
+    
+    
+
+    .tarjeta-informacion {
+        margin-left: -15px;
+       
+    }
+    .info{
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        position: relative;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px; 
+        margin-left: 15px;
+      
+    }
+    .text-left{
+        font-size: 26px;
+        margin-left: 15px;
+    }
+    .b-3-medio{
+        margin-left: 2px;
+    }
   
+    .titulo1{
+        font-size: 24px !important;
+    }
+    .titulo{
+        font-size: 24px !important;
+    }
+    .titulo-page{
+        font-size: 48px ;  
+        width: 500px !important; 
+        padding-top: 50px;
+    }
 
     .posc-left{
         margin-left: 0vh !important; 
@@ -545,5 +662,44 @@ main .pf-1{
         display: inline;
         position: relative; 
     }
+
+    .btn-icon{
+        height: 70px !important;
+        width: 70px !important;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    
+    .btn1{
+        font-size: 20px;
+    }
+
+    .btn2{
+        font-size: 20px;
+
+    }
+    .btn3{
+        font-size: 20px;
+    }
+    .btn4{
+        background: #03081F;
+    }
+
+    .btn5{
+        font-size: 20px;
+    }
+
+    .btn6{
+        font-size: 20px;
+    }
+
+    .btn7{
+        font-size: 20px;
+    }
+
+    ul{
+        padding-left: 20px !important;
+    }
+
     
 }
