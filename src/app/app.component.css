@@ -1,5 +1,4 @@
-
-header {
+.header {
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -23,6 +22,19 @@ header {
     font-weight: 500;
     background-color: #fff;
 
+}
+.posc-left{
+    margin-left: 70vh; 
+    padding-top: 150px;
+}
+.titulo-form{
+    display:flex;
+    color: #081342; 
+    font-size: 55px; 
+    max-width: 500px; 
+    padding-top: 50px; 
+    position: absolute; 
+    font-weight: bold;
 }
 .menu a{
     margin-left: 60px;
@@ -521,53 +533,19 @@ main .pf-1{
 
 
 @media screen and (max-width:500px){
-    nav{
-        text-align: center;
-        padding: 30px 0 0 0;
-    }
-
-    nav > a{
-        margin-right: 5px;
-    }
-
-    .textos-header h1{
-        font-size: 35px;
-    }
-
-    .textos-header h2{
-        font-size: 20px;
-    }
-
-
-    .imagen-about-us{
-        margin-bottom: 60px;
-        width: 99%;
-    }
-
-    .sobre-nosotros .contenido-textos{
-        width: 95%;
-    }
-
-
-    .imagen-port{
-        width: 95%;
-    }
-
   
 
-
-
-    .cards .card{
-        height: 450px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .posc-left{
+        margin-left: 0vh !important; 
+        padding-top: 0px !important;
     }
 
-    .cards .card img{
-        width: 90px;
-        height: 90px;
+
+    .titulo-form{
+        display: inline;
+        position: relative; 
     }
+    
 
 
     

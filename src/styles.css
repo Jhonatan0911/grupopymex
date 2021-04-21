@@ -2,22 +2,22 @@
 
 
 body{
-    font-family: 'Poppins', sans-serif !important;
-    background-color: #ffffff !important;
-    font-size: 14px;
-  }
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #ffffff !important;
+  font-size: 14px;
+}
   
 p{
 margin: 0 !important;
 }
   
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
   
 .my-3{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .sombra{
-    box-shadow: 0 6px 10px 0 rgba(96, 106, 128, 0.61);
-  }
+  box-shadow: 0 6px 10px 0 rgba(96, 106, 128, 0.61);
+}
