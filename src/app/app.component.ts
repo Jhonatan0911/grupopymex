@@ -8,14 +8,6 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'grupopymex';
-  parrafo1:boolean = true;
-  parrafo2:boolean = false;
-  parrafo3:boolean = false;
-  parrafo4:boolean = false;
-  parrafo5:boolean = false;
-  parrafo6:boolean = false;
-
-
 }
 
 
