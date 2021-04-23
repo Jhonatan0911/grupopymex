@@ -17,10 +17,10 @@
     text-align: center;
 }
 .menu{
-    height: 60px;
+    height: 80px;
     font-size: 16px !important;
     font-weight: 500;
-    background-color: #fff;
+    background-color: #081342;
 
 }
 .posc-left{
@@ -60,15 +60,14 @@
     font-size: 36px !important;
 
 }
-
-
-.img-fluid{
-    margin-top: 2px;
-    height: 30px !important;
-    width: 80px !important;
-    top: 10px !important;
+.imgheader{
+    margin-top: 5px;
+    height: 60px !important;
+    width: 200px !important;
+    top: 5px !important;
     position: absolute;
 }
+
 .portafolio {
     width: 100%;
     background-color: #03081F;
@@ -86,24 +85,24 @@
 }
 nav{
     text-align: right;
-    padding: 25px 50px 0 0;
+    padding: 30px 50px 0 0;
 
 }
 
 nav > a{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
     border-style: solid;
-    border-color: #ffffff;
+    border-color: #081342;
     border-width: 1px;
     padding: 10px;
 }
 
 .menu a:hover{
     border-style: solid;
-    border-color: #081342;
+    border-color: #fff;
     border-width: 1px;
     padding: 10px;
 }
